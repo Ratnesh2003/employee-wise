@@ -1,0 +1,13 @@
+database:
+  host: ${DB_HOST:3.89.242.148}
+bucket:
+  name: ${DB_BUCKET_NAME:ewiseBucket}
+  user: ${DB_USER:admin}
+  password: ${DB_PASSWORD:Abcd@1234}
+
+#Email
+mail:
+  smtp: smtp.gmail.com
+  port: 465
+  email: ${MAIL_USERNAME}
+  password: ${MAIL_PASSWORD}
